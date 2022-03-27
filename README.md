@@ -1,3 +1,27 @@
+# ToDo-App
+
+## Requirements
+
+Create an application that will track ToDo's
+
+Should have the following:
+1) input box
+2) submit button
+3) clear list button
+4) list out items in ordered list
+5) way to mark down and clear.
+
+
+Due Date April 9th
+
+
+
+
+
+
+
+
+
 # Alchemy Dev 101 Template
 
 ## Making a plan!
