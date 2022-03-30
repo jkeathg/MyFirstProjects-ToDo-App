@@ -1,3 +1,25 @@
+<!-- Requirements
+
+Create an application that will track ToDo's
+
+Should have the following:
+
+    input box
+    submit button
+    clear list button
+    list out items in ordered list
+    way to mark down and clear.
+
+Due Date April 9th
+
+
+
+You can do this! 
+-->
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,18 +30,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <script type="module" src="./app.js" defer></script>
     <title>My App</title>
 </head>
 
 <body>
     <header>
-        <h1>My App</h1>
+        <h1>ToDo App</h1>
         <img src="assets/big-logo.png" />
     </header>
     
     <main>
+<section id="mainForm">
+       <h2>Add ToDo</h2>
+       <form id="boxToDo">
+       <input type="text" id="addToDo" for="addToDo" name="addToDo" value="">
+       <input type="button" id="submitToDo" value="Submit ToDo">
+       <input type="button" id="clearBtn" value="Clear">
+</form>
 
-        Make a Web App!
+<div id="listDiv">
+    
+</div>
+</section>
+
+
+
+        
         
     </main>
 
@@ -27,7 +64,7 @@
         &copy; 2021 Alchemy Code Lab
     </footer>
 
-    <script type="module" src="./app.js"></script>
+    
 </body>
 
 </html>

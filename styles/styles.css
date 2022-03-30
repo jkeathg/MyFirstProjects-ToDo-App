@@ -33,3 +33,20 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+h2 { 
+    font-weight: 900;
+    font-size:larger;
+    text-align: center;
+}
+
+#mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boxToDo {
+    padding-bottom: 250px;
+}
+
