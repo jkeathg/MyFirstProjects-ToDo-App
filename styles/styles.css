@@ -50,3 +50,8 @@ h2 {
     padding-bottom: 250px;
 }
 
+.formEntry {
+    display: flex;
+    flex-direction: row;
+}
+
