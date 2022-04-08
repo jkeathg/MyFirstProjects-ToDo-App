@@ -55,3 +55,16 @@ h2 {
     flex-direction: row;
 }
 
+
+#toDoEntry {
+    color: darkblue;
+    transition: all 0.5s ease;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+
