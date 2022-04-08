@@ -33,7 +33,6 @@ uList.addEventListener('click', updateLine);
 submitToDo.addEventListener('click', () => {
     
    
-    preventDefault();
     // create div element
     const liDiv = document.createElement('div');
     liDiv.classList = 'formEntry';
